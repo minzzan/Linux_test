@@ -1,7 +1,14 @@
 #include <stdio.h>
 #include "funcs.h"
 
-void foo()
+int foo()
 {
-	printf("foo\n");
+	int flag=0;
+	if (flog) {
+	  printf("hello foo world\n");
+	}
+	else {
+	  printf("good bye~\n");
+	}
+	return 0;
 }
