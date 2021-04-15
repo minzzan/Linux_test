@@ -1,5 +1,5 @@
 #ifndef FUNCS_H
 #define FUNCS_H
-	int foo(void);
+	int foo(int flag);
 	void goo(void);
 #endif

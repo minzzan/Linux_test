@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "funcs.h"
 
-int foo()
+int foo(int flag)
 {
-	int flag=0;
-	if (flog) {
+	if (flag) {
 	  printf("hello foo world\n");
 	}
 	else {
